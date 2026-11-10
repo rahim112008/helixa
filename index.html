@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Helixa — La plateforme d'analyse génomique et biostatistique pour les laboratoires et les éleveurs." />
+  <meta name="theme-color" content="#04050d" />
+  <title>Helixa | Plateforme d'Analyse Génomique</title>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="navbar" class="navbar">
+  <div class="container nav-inner" style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+    <a href="#" class="nav-brand">
+      <span class="brand">Helixa<span class="text-grad">.bio</span></span>
+      <span class="nav-tagline">Plateforme Labo & Élevage</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#features">Fonctionnalités</a></li>
+      <li><a href="#species">Espèces</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!-- BOUTON VERS L'APPLICATION STREAMLIT (URL MISE À JOUR) -->
+      <li>
+        <a href="https://camelin-algerien1-helixa.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn" style="padding: 0.6rem 1.2rem; margin-left: 1rem;">
+          Lancer l'application
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO (L'accroche marketing) -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <div class="section-eyebrow">Intelligent Data Analytics</div>
+    <h1 class="hero-title">
+      Décryptez le génome.<br>
+      <span class="text-grad">Prenez les bonnes décisions.</span>
+    </h1>
+    <p class="hero-subtitle">
+      Helixa est la suite logicielle tout-en-un pour l'analyse génomique (GWAS, PCA, FST) et biostatistique. 
+      Conçue pour les chercheurs et les sélectionneurs animaux.
+    </p>
+
+    <div class="hero-ctas">
+      <!-- BOUTON PRINCIPAL VERS STREAMLIT (URL MISE À JOUR) -->
+      <a href="https://camelin-algerien1-helixa.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem;">
+        Accéder à la plateforme d'analyse
+      </a>
+      <a href="#features" class="btn btn-outline">Découvrir les modules</a>
+    </div>
+
+    <!-- Stats -->
+    <div class="hero-stats">
+      <div class="hero-stat-item">
+        <span class="hero-stat-label">GWAS & GBLUP</span>
+        <span class="text-faint">Analyses avancées</span>
+      </div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-label">Bovin & Camelin</span>
+        <span class="text-faint">Prêt à l'emploi</span>
+      </div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-label">Sécurité</span>
+        <span class="text-faint">Données chiffrées</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FONCTIONNALITÉS -->
+<section id="features" style="background:var(--space-900);">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-eyebrow">Modules d'analyse</div>
+      <h2 class="section-title">Ce que fait <span class="text-grad">Helixa</span></h2>
+      <p class="section-subtitle">Une suite complète d'outils statistiques et génétiques, sans écrire une seule ligne de code.</p>
+    </header>
+
+    <div class="domains-grid">
+      <article class="domain-card">
+        <span class="domain-icon" style="font-size: 2rem;">🧬</span>
+        <h3>Génomique des Populations</h3>
+        <p>Contrôle Qualité (QC), PCA, MDS, Admixture (NMF), calcul des ROH et de l'endogamie.</p>
+      </article>
+      
+      <article class="domain-card">
+        <span class="domain-icon" style="font-size: 2rem;">📊</span>
+        <h3>GWAS & Sélection</h3>
+        <p>Détection de SNPs d'intérêt, Scans de sélection (FST, Tajima's D, CSS), GWAS case-control.</p>
+      </article>
+
+      <article class="domain-card">
+        <span class="domain-icon" style="font-size: 2rem;">🤖</span>
+        <h3>GBLUP & Prédiction</h3>
+        <p>Modèles mixtes pour l'évaluation génétique, calcul de l'héritabilité (h²) et validation croisée.</p>
+      </article>
+
+      <article class="domain-card">
+        <span class="domain-icon" style="font-size: 2rem;">🧪</span>
+        <h3>Annotation & 3D</h3>
+        <p>Annotation fonctionnelle (VEP), recherche de gènes NCBI, et visualisation des protéines avec AlphaFold.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION PLATEFORME (Le pont vers Streamlit) -->
+<section id="plateforme" style="text-align: center; padding: 5rem 2rem;">
+  <div class="container" style="max-width: 800px; background: rgba(0, 191, 255, 0.05); border: 1px solid var(--blue); border-radius: var(--radius-lg); padding: 3rem;">
+    <h2 class="text-grad">Prêt à analyser vos données ?</h2>
+    <p style="margin: 1.5rem 0; font-size: 1.1rem;">
+      Lancez l'application sécurisée Helixa. Importez vos fichiers PLINK (.ped/.map), VCF ou CSV et obtenez vos résultats en quelques minutes.
+    </p>
+    <!-- BOUTON CENTRAL VERS STREAMLIT (URL MISE À JOUR) -->
+    <a href="https://camelin-algerien1-helixa.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn" style="font-size: 1.2rem; padding: 1rem 3rem;">
+      Ouvrir Helixa (Connexion)
+    </a>
+    <p style="font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted);">(Application sécurisée propulsée par Streamlit)</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background:var(--space-900);">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2 class="section-title">Besoin d'une analyse<br><span class="text-grad">sur mesure ?</span></h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem;">Nos experts analysent vos données et rédigent vos rapports pour publication.</p>
+      </div>
+      <div class="contact-form-card">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label class="form-label">Nom / Laboratoire</label>
+            <input type="text" class="form-input" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="votre@email.com" required />
+          </div>
+          <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Demander un devis</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="text-align: center;">
+      <span>© <span id="year">2024</span> Helixa. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Met à jour l'année automatiquement
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
